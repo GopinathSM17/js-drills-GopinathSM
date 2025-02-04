@@ -12,7 +12,7 @@ import {findAllEmail,
       } from "./problem.js";
 
 // Imports the data from the var arrayoOfObjects
-import data from "../data.js";
+import data from "./data.js";
 
 
 //----- test cases for problem1 ----
