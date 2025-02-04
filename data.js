@@ -42,7 +42,7 @@ const arrayOfObjects = [
     { 
        id: 5, 
        name: 'Eve', 
-       age: 32,
+       age: 35,
       email: 'eve@example.com',
        city: 'Sydney',
        country: 'Australia',
