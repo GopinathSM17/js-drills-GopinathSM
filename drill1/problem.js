@@ -2,7 +2,7 @@
  function findAllEmail(data){
     var emails=[];
 
-  
+
     //if array not present in the given data
     if (! Array.isArray(data)) {
         return "array not present in the given data";
@@ -21,5 +21,6 @@
     return emails;
  }
 
+//Find the hobbies of 30 year old
 
 export {findAllEmail};

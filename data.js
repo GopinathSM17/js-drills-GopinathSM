@@ -43,7 +43,7 @@ const arrayOfObjects = [
        id: 5, 
        name: 'Eve', 
        age: 32,
-       email: 'eve@example.com',
+      email: 'eve@example.com',
        city: 'Sydney',
        country: 'Australia',
        hobbies: ['yoga', 'surfing'],
@@ -83,7 +83,7 @@ const arrayOfObjects = [
        id: 9, 
        name: 'Ivy', 
        age: 27,
-       email: 'ivy@example.com',
+      email: 'ivy@example.com',
        city: 'Tokyo',
        country: 'Japan',
        hobbies: ['playing piano', 'cooking'],
@@ -103,6 +103,4 @@ const arrayOfObjects = [
 
 
 
-  module.exports = arrayOfObjects;
-
-// export default arrayOfObjects;
+export default arrayOfObjects;
