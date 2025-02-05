@@ -9,7 +9,7 @@ import {findAllEmail,
          firstHobby,
          nameAndEmailOfAge25,
          cityAndCountry
-      } from "./problem.js";
+      } from "./solution.js";
 
 // Imports the data from the var arrayoOfObjects
 import data from "./data.js";

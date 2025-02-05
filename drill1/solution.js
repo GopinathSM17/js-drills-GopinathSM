@@ -4,7 +4,7 @@ function findAllEmail(data) {
 
 
     //if array not present in the given data
-    if (!Array.isArray(data)) {
+    if ( !Array.isArray(data)) {
         return "array not present in the given data";
     }
     if (data.some(obj => "email" in obj)) {
