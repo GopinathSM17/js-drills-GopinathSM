@@ -7,7 +7,8 @@ import{
     map,
     reduce,
     find,
-    filter
+    filter,
+    flatten
 } from "./solution.js";
 
 
@@ -68,3 +69,7 @@ function callbackForFilter(element) {
 }
 
 
+//problem 6
+console.log("This output is for flattern");
+const flatternOutput= flatten([1, [2], [3, [[4]]]]);
+console.log(flatternOutput);

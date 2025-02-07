@@ -36,6 +36,7 @@ function find(elements, cb) {
   return "not found in the array"
 }
 
+//solution 5
 function filter(elements, cb) {
   var filteredArray = [];
   for (let i = 0; i < elements.length; i++) {
@@ -46,10 +47,27 @@ function filter(elements, cb) {
   return filteredArray;
 }
 
+// solution 6
+function flatten(elements) {
+  var result=[];
+  for(var i=0; i<elements.length;i++){
+    if(Array.isArray(elements[i])){
+      result.push(...flatten(elements[i])); // ... it is spread operator
+      // With ..., push adds each element separately
+    }
+    else{
+      result.push(elements[i]);
+    }
+  }
+  return result;
+}
+
+
 export {
   each,
   map,
   reduce,
   find,
-  filter
+  filter,
+  flatten
 }
